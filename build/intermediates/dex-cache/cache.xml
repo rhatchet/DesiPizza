@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/sari/AndroidStudioProjects/Project/DesiPizza/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/sari/AndroidStudioProjects/Project/DesiPizza/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.1.1_a785f846d509bffe2476b333b7afa525a364580d.jar" />
+    </item>
+    <item
+        jar="/Users/sari/AndroidStudioProjects/Project/DesiPizza/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/sari/AndroidStudioProjects/Project/DesiPizza/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_cf9bfb612a58e4692334e1b8fac5db727ed04ed5.jar" />
+    </item>
+    <item
+        jar="/Users/sari/AndroidStudioProjects/Project/DesiPizza/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ddb6f5cd83256d1413d91b8bc3abbd2818a2f9b5">
+        <dex dex="/Users/sari/AndroidStudioProjects/Project/DesiPizza/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_f6de502a3581dfe6ee15dfe205da94d06db422bd.jar" />
+    </item>
+    <item
+        jar="/Users/sari/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/sari/AndroidStudioProjects/Project/DesiPizza/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_1a62b9a913badcf5250c419c9aa348e494745582.jar" />
+    </item>
+    <item
+        jar="/Users/sari/AndroidStudioProjects/Project/DesiPizza/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Users/sari/AndroidStudioProjects/Project/DesiPizza/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.1_d9d1fea2ed9947516e2d14e622f75df64eb92777.jar" />
+    </item>
+    <item
+        jar="/Users/sari/AndroidStudioProjects/Project/DesiPizza/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/Users/sari/AndroidStudioProjects/Project/DesiPizza/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.1.1_b3474f0f0887c88bee3ee952c53c2a3c84455bcc.jar" />
+    </item>
+    <item
+        jar="/Users/sari/AndroidStudioProjects/Project/DesiPizza/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d9a7e20d64254778a27e0484c1dcc2f812767321">
+        <dex dex="/Users/sari/AndroidStudioProjects/Project/DesiPizza/app/build/intermediates/pre-dexed/debug/instant-run_569b67daa3f45bb63190c0e6f026c658a1074e87.jar" />
+    </item>
+    <item
+        jar="/Users/sari/AndroidStudioProjects/Project/DesiPizza/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/sari/AndroidStudioProjects/Project/DesiPizza/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_7483c468f17aa46ee031061edb1c06a3310d70c5.jar" />
+    </item>
+
+</items>
