@@ -40,7 +40,7 @@ This work is available under the "MIT License". Please see the file COPYING in t
 
 ##Bug or Issue Tracker:
 
-You can report the bugs in the following link:https: //github.com/s4sarishma/DesiPizza/issues 
+You can report the bugs in the following link: https://github.com/s4sarishma/DesiPizza/issues 
 
 You can refer the user manaul documnet to get build instructions, prerequisites:
 
