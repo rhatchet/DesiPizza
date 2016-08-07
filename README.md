@@ -22,13 +22,17 @@ https://github.com/s4sarishma/DesiPizza.git
 
 .apk file can be used to install the app on your phone. You can get the .apk file from : 
 
+##Screenshots:
+
+
+
 ##Future Enhancements:
 
-1) Provide more toppings, drink-types for the users.
+* Provide more toppings, drink-types for the users.
 
-2) Allow users to add different crusts for their pizzas. 
+* Allow users to add different crusts for their pizzas. 
 
-3) Integrate this app with a pay service.
+* Integrate this app with a pay service.
 
 ##License Information:
 
@@ -38,6 +42,11 @@ This work is available under the "MIT License". Please see the file COPYING in t
 
 You can report the bugs in the following link:
 You can refer the user manaul documnet to get build instructions, prerequisites:
+
+##References:
+https://developer.android.com/training/index.html
+
+https://developer.android.com/reference/android/content/SharedPreferences.html
 
 
 ##Final Presentation:
