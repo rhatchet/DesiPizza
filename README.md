@@ -25,7 +25,9 @@ https://github.com/s4sarishma/DesiPizza.git
 ##Future Enhancements:
 
 1) Provide more toppings, drink-types for the users.
+
 2) Allow users to add different crusts for their pizzas. 
+
 3) Integrate this app with a pay service.
 
 ##License Information:
