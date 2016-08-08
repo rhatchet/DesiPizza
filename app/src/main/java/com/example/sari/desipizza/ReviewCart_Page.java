@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -93,6 +94,8 @@ public class ReviewCart_Page extends AppCompatActivity {
                     ReviewCart_Page.this.startActivity(intent);
                     return;
                 }
+                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
+                //alertDialogBuilder.setMessage("NO ITEMS IN CART!!! ");
                 ReviewCart_Page.this.totalPriceDisp.setText("NO ITEMS IN CART!!! ");
             }
         });
@@ -163,16 +166,16 @@ public class ReviewCart_Page extends AppCompatActivity {
         this.cb8 = (CheckBox) findViewById(R.id.checkBox8);
         this.cb9 = (CheckBox) findViewById(R.id.checkBox9);
         this.cb10 = (CheckBox) findViewById(R.id.checkBox10);
-        this.cb1.setVisibility(4);
-        this.cb2.setVisibility(4);
-        this.cb3.setVisibility(4);
-        this.cb4.setVisibility(4);
-        this.cb5.setVisibility(4);
-        this.cb6.setVisibility(4);
-        this.cb7.setVisibility(4);
-        this.cb8.setVisibility(4);
-        this.cb9.setVisibility(4);
-        this.cb10.setVisibility(4);
+        this.cb1.setVisibility(View.INVISIBLE);
+        this.cb2.setVisibility(View.INVISIBLE);
+        this.cb3.setVisibility(View.INVISIBLE);
+        this.cb4.setVisibility(View.INVISIBLE);
+        this.cb5.setVisibility(View.INVISIBLE);
+        this.cb6.setVisibility(View.INVISIBLE);
+        this.cb7.setVisibility(View.INVISIBLE);
+        this.cb8.setVisibility(View.INVISIBLE);
+        this.cb9.setVisibility(View.INVISIBLE);
+        this.cb10.setVisibility(View.INVISIBLE);
         orderDisp1 = (TextView) findViewById(R.id.tv1_id);
         orderDisp2 = (TextView) findViewById(R.id.tv2_id);
         orderDisp3 = (TextView) findViewById(R.id.tv3_id);
@@ -198,31 +201,31 @@ public class ReviewCart_Page extends AppCompatActivity {
             this.cb1.setVisibility(View.VISIBLE);
         }
         if (list2 != null) {
-            this.cb2.setVisibility(0);
+            this.cb2.setVisibility(View.VISIBLE);
         }
         if (list3 != null) {
-            this.cb3.setVisibility(0);
+            this.cb3.setVisibility(View.VISIBLE);
         }
         if (list4 != null) {
-            this.cb4.setVisibility(0);
+            this.cb4.setVisibility(View.VISIBLE);
         }
         if (list5 != null) {
-            this.cb5.setVisibility(0);
+            this.cb5.setVisibility(View.VISIBLE);
         }
         if (list6 != null) {
-            this.cb6.setVisibility(0);
+            this.cb6.setVisibility(View.VISIBLE);
         }
         if (list7 != null) {
-            this.cb7.setVisibility(0);
+            this.cb7.setVisibility(View.VISIBLE);
         }
         if (list8 != null) {
-            this.cb8.setVisibility(0);
+            this.cb8.setVisibility(View.VISIBLE);
         }
         if (list9 != null) {
-            this.cb9.setVisibility(0);
+            this.cb9.setVisibility(View.VISIBLE);
         }
         if (list10 != null) {
-            this.cb10.setVisibility(0);
+            this.cb10.setVisibility(View.VISIBLE);
         }
 
         if (list1 == null && list2 == null && list3 == null && list4 == null && list5 == null && list6 == null && list7 == null && list8 == null && list9 == null && list10 == null) {
@@ -241,14 +244,14 @@ public class ReviewCart_Page extends AppCompatActivity {
         this.cb1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 if (ReviewCart_Page.this.cb1.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(0);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.VISIBLE);
                 }
                 if (!ReviewCart_Page.this.cb1.isChecked() && !ReviewCart_Page.this.cb2.isChecked()
                         && !ReviewCart_Page.this.cb3.isChecked() && !ReviewCart_Page.this.cb4.isChecked()
                         && !ReviewCart_Page.this.cb5.isChecked() && !ReviewCart_Page.this.cb6.isChecked()
                         && !ReviewCart_Page.this.cb7.isChecked() && !ReviewCart_Page.this.cb8.isChecked()
                         && !ReviewCart_Page.this.cb9.isChecked() && !ReviewCart_Page.this.cb10.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(4);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.INVISIBLE);
                 }
             }
         });
@@ -256,14 +259,14 @@ public class ReviewCart_Page extends AppCompatActivity {
         this.cb2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 if (ReviewCart_Page.this.cb2.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(0);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.VISIBLE);
                 }
                 if (!ReviewCart_Page.this.cb1.isChecked() && !ReviewCart_Page.this.cb2.isChecked()
                         && !ReviewCart_Page.this.cb3.isChecked() && !ReviewCart_Page.this.cb4.isChecked()
                         && !ReviewCart_Page.this.cb5.isChecked() && !ReviewCart_Page.this.cb6.isChecked()
                         && !ReviewCart_Page.this.cb7.isChecked() && !ReviewCart_Page.this.cb8.isChecked()
                         && !ReviewCart_Page.this.cb9.isChecked() && !ReviewCart_Page.this.cb10.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(4);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.INVISIBLE);
                 }
             }
         });
@@ -271,14 +274,14 @@ public class ReviewCart_Page extends AppCompatActivity {
         this.cb3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 if (ReviewCart_Page.this.cb3.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(0);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.VISIBLE);
                 }
                 if (!ReviewCart_Page.this.cb1.isChecked() && !ReviewCart_Page.this.cb2.isChecked()
                         && !ReviewCart_Page.this.cb3.isChecked() && !ReviewCart_Page.this.cb4.isChecked()
                         && !ReviewCart_Page.this.cb5.isChecked() && !ReviewCart_Page.this.cb6.isChecked()
                         && !ReviewCart_Page.this.cb7.isChecked() && !ReviewCart_Page.this.cb8.isChecked()
                         && !ReviewCart_Page.this.cb9.isChecked() && !ReviewCart_Page.this.cb10.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(4);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.INVISIBLE);
                 }
             }
         });
@@ -286,14 +289,14 @@ public class ReviewCart_Page extends AppCompatActivity {
         this.cb4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 if (ReviewCart_Page.this.cb4.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(0);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.VISIBLE);
                 }
                 if (!ReviewCart_Page.this.cb1.isChecked() && !ReviewCart_Page.this.cb2.isChecked()
                         && !ReviewCart_Page.this.cb3.isChecked() && !ReviewCart_Page.this.cb4.isChecked()
                         && !ReviewCart_Page.this.cb5.isChecked() && !ReviewCart_Page.this.cb6.isChecked()
                         && !ReviewCart_Page.this.cb7.isChecked() && !ReviewCart_Page.this.cb8.isChecked()
                         && !ReviewCart_Page.this.cb9.isChecked() && !ReviewCart_Page.this.cb10.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(4);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.INVISIBLE);
                 }
             }
         });
@@ -301,14 +304,14 @@ public class ReviewCart_Page extends AppCompatActivity {
         this.cb5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 if (ReviewCart_Page.this.cb5.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(0);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.VISIBLE);
                 }
                 if (!ReviewCart_Page.this.cb1.isChecked() && !ReviewCart_Page.this.cb2.isChecked()
                         && !ReviewCart_Page.this.cb3.isChecked() && !ReviewCart_Page.this.cb4.isChecked()
                         && !ReviewCart_Page.this.cb5.isChecked() && !ReviewCart_Page.this.cb6.isChecked()
                         && !ReviewCart_Page.this.cb7.isChecked() && !ReviewCart_Page.this.cb8.isChecked()
                         && !ReviewCart_Page.this.cb9.isChecked() && !ReviewCart_Page.this.cb10.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(4);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.INVISIBLE);
                 }
             }
         });
@@ -316,14 +319,14 @@ public class ReviewCart_Page extends AppCompatActivity {
         this.cb6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 if (ReviewCart_Page.this.cb6.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(0);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.VISIBLE);
                 }
                 if (!ReviewCart_Page.this.cb1.isChecked() && !ReviewCart_Page.this.cb2.isChecked()
                         && !ReviewCart_Page.this.cb3.isChecked() && !ReviewCart_Page.this.cb4.isChecked()
                         && !ReviewCart_Page.this.cb5.isChecked() && !ReviewCart_Page.this.cb6.isChecked()
                         && !ReviewCart_Page.this.cb7.isChecked() && !ReviewCart_Page.this.cb8.isChecked()
                         && !ReviewCart_Page.this.cb9.isChecked() && !ReviewCart_Page.this.cb10.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(4);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.INVISIBLE);
                 }
             }
         });
@@ -331,14 +334,14 @@ public class ReviewCart_Page extends AppCompatActivity {
         this.cb7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 if (ReviewCart_Page.this.cb7.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(0);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.VISIBLE);
                 }
                 if (!ReviewCart_Page.this.cb1.isChecked() && !ReviewCart_Page.this.cb2.isChecked()
                         && !ReviewCart_Page.this.cb3.isChecked() && !ReviewCart_Page.this.cb4.isChecked()
                         && !ReviewCart_Page.this.cb5.isChecked() && !ReviewCart_Page.this.cb6.isChecked()
                         && !ReviewCart_Page.this.cb7.isChecked() && !ReviewCart_Page.this.cb8.isChecked()
                         && !ReviewCart_Page.this.cb9.isChecked() && !ReviewCart_Page.this.cb10.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(4);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.INVISIBLE);
                 }
             }
         });
@@ -346,14 +349,14 @@ public class ReviewCart_Page extends AppCompatActivity {
         this.cb8.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 if (ReviewCart_Page.this.cb8.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(0);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.VISIBLE);
                 }
                 if (!ReviewCart_Page.this.cb1.isChecked() && !ReviewCart_Page.this.cb2.isChecked()
                         && !ReviewCart_Page.this.cb3.isChecked() && !ReviewCart_Page.this.cb4.isChecked()
                         && !ReviewCart_Page.this.cb5.isChecked() && !ReviewCart_Page.this.cb6.isChecked()
                         && !ReviewCart_Page.this.cb7.isChecked() && !ReviewCart_Page.this.cb8.isChecked()
                         && !ReviewCart_Page.this.cb9.isChecked() && !ReviewCart_Page.this.cb10.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(4);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.INVISIBLE);
                 }
             }
         });
@@ -361,14 +364,14 @@ public class ReviewCart_Page extends AppCompatActivity {
         this.cb9.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 if (ReviewCart_Page.this.cb9.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(0);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.VISIBLE);
                 }
                 if (!ReviewCart_Page.this.cb1.isChecked() && !ReviewCart_Page.this.cb2.isChecked()
                         && !ReviewCart_Page.this.cb3.isChecked() && !ReviewCart_Page.this.cb4.isChecked()
                         && !ReviewCart_Page.this.cb5.isChecked() && !ReviewCart_Page.this.cb6.isChecked()
                         && !ReviewCart_Page.this.cb7.isChecked() && !ReviewCart_Page.this.cb8.isChecked()
                         && !ReviewCart_Page.this.cb9.isChecked() && !ReviewCart_Page.this.cb10.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(4);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.INVISIBLE);
                 }
             }
         });
@@ -376,14 +379,14 @@ public class ReviewCart_Page extends AppCompatActivity {
         this.cb10.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 if (ReviewCart_Page.this.cb10.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(0);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.VISIBLE);
                 }
                 if (!ReviewCart_Page.this.cb1.isChecked() && !ReviewCart_Page.this.cb2.isChecked()
                         && !ReviewCart_Page.this.cb3.isChecked() && !ReviewCart_Page.this.cb4.isChecked()
                         && !ReviewCart_Page.this.cb5.isChecked() && !ReviewCart_Page.this.cb6.isChecked()
                         && !ReviewCart_Page.this.cb7.isChecked() && !ReviewCart_Page.this.cb8.isChecked()
                         && !ReviewCart_Page.this.cb9.isChecked() && !ReviewCart_Page.this.cb10.isChecked()) {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(4);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.INVISIBLE);
                 }
             }
         });
@@ -393,7 +396,7 @@ public class ReviewCart_Page extends AppCompatActivity {
             public void onClick(View view) {
                 if (ReviewCart_Page.this.cb1.isChecked()) {
                     ReviewCart_Page.list1 = null;
-                    ReviewCart_Page.this.cb1.setVisibility(4);
+                    ReviewCart_Page.this.cb1.setVisibility(View.INVISIBLE);
                     ReviewCart_Page.orderDisp1.setText(ReviewCart_Page.list1);
                     ReviewCart_Page.this.cb1.setChecked(false);
                     Editor editor = ReviewCart_Page.this.getSharedPreferences("spSettings", 0).edit();
@@ -407,7 +410,7 @@ public class ReviewCart_Page extends AppCompatActivity {
 
                 if (ReviewCart_Page.this.cb2.isChecked()) {
                     ReviewCart_Page.list2 = null;
-                    ReviewCart_Page.this.cb2.setVisibility(4);
+                    ReviewCart_Page.this.cb2.setVisibility(View.INVISIBLE);
                     ReviewCart_Page.orderDisp2.setText(ReviewCart_Page.list2);
                     ReviewCart_Page.this.cb2.setChecked(false);
                     Editor editor = ReviewCart_Page.this.getSharedPreferences("spSettings", 0).edit();
@@ -421,7 +424,7 @@ public class ReviewCart_Page extends AppCompatActivity {
 
                 if (ReviewCart_Page.this.cb3.isChecked()) {
                     ReviewCart_Page.list3 = null;
-                    ReviewCart_Page.this.cb3.setVisibility(4);
+                    ReviewCart_Page.this.cb3.setVisibility(View.INVISIBLE);
                     ReviewCart_Page.orderDisp3.setText(ReviewCart_Page.list3);
                     ReviewCart_Page.this.cb3.setChecked(false);
                     Editor editor = ReviewCart_Page.this.getSharedPreferences("spSettings", 0).edit();
@@ -435,7 +438,7 @@ public class ReviewCart_Page extends AppCompatActivity {
 
                 if (ReviewCart_Page.this.cb4.isChecked()) {
                     ReviewCart_Page.list4 = null;
-                    ReviewCart_Page.this.cb4.setVisibility(4);
+                    ReviewCart_Page.this.cb4.setVisibility(View.INVISIBLE);
                     ReviewCart_Page.orderDisp4.setText(ReviewCart_Page.list4);
                     ReviewCart_Page.this.cb4.setChecked(false);
                     Editor editor = ReviewCart_Page.this.getSharedPreferences("spSettings", 0).edit();
@@ -449,7 +452,7 @@ public class ReviewCart_Page extends AppCompatActivity {
 
                 if (ReviewCart_Page.this.cb5.isChecked()) {
                     ReviewCart_Page.list5 = null;
-                    ReviewCart_Page.this.cb5.setVisibility(4);
+                    ReviewCart_Page.this.cb5.setVisibility(View.INVISIBLE);
                     ReviewCart_Page.orderDisp5.setText(ReviewCart_Page.list5);
                     ReviewCart_Page.this.cb5.setChecked(false);
                     Editor editor = ReviewCart_Page.this.getSharedPreferences("spSettings", 0).edit();
@@ -463,7 +466,7 @@ public class ReviewCart_Page extends AppCompatActivity {
 
                 if (ReviewCart_Page.this.cb6.isChecked()) {
                     ReviewCart_Page.list6 = null;
-                    ReviewCart_Page.this.cb6.setVisibility(4);
+                    ReviewCart_Page.this.cb6.setVisibility(View.INVISIBLE);
                     ReviewCart_Page.orderDisp6.setText(ReviewCart_Page.list6);
                     ReviewCart_Page.this.cb6.setChecked(false);
                     Editor editor = ReviewCart_Page.this.getSharedPreferences("spSettings", 0).edit();
@@ -477,7 +480,7 @@ public class ReviewCart_Page extends AppCompatActivity {
 
                 if (ReviewCart_Page.this.cb7.isChecked()) {
                     ReviewCart_Page.list7 = null;
-                    ReviewCart_Page.this.cb7.setVisibility(4);
+                    ReviewCart_Page.this.cb7.setVisibility(View.INVISIBLE);
                     ReviewCart_Page.orderDisp7.setText(ReviewCart_Page.list7);
                     ReviewCart_Page.this.cb7.setChecked(false);
                     Editor editor = ReviewCart_Page.this.getSharedPreferences("spSettings", 0).edit();
@@ -491,7 +494,7 @@ public class ReviewCart_Page extends AppCompatActivity {
 
                 if (ReviewCart_Page.this.cb8.isChecked()) {
                     ReviewCart_Page.list8 = null;
-                    ReviewCart_Page.this.cb8.setVisibility(4);
+                    ReviewCart_Page.this.cb8.setVisibility(View.INVISIBLE);
                     ReviewCart_Page.orderDisp8.setText(ReviewCart_Page.list8);
                     ReviewCart_Page.this.cb8.setChecked(false);
                     Editor editor = ReviewCart_Page.this.getSharedPreferences("spSettings", 0).edit();
@@ -505,7 +508,7 @@ public class ReviewCart_Page extends AppCompatActivity {
 
                 if (ReviewCart_Page.this.cb9.isChecked()) {
                     ReviewCart_Page.list9 = null;
-                    ReviewCart_Page.this.cb9.setVisibility(4);
+                    ReviewCart_Page.this.cb9.setVisibility(View.INVISIBLE);
                     ReviewCart_Page.orderDisp9.setText(ReviewCart_Page.list9);
                     ReviewCart_Page.this.cb9.setChecked(false);
                     Editor editor = ReviewCart_Page.this.getSharedPreferences("spSettings", 0).edit();
@@ -519,7 +522,7 @@ public class ReviewCart_Page extends AppCompatActivity {
 
                 if (ReviewCart_Page.this.cb10.isChecked()) {
                     ReviewCart_Page.list10 = null;
-                    ReviewCart_Page.this.cb10.setVisibility(4);
+                    ReviewCart_Page.this.cb10.setVisibility(View.INVISIBLE);
                     ReviewCart_Page.orderDisp10.setText(ReviewCart_Page.list10);
                     ReviewCart_Page.this.cb10.setChecked(false);
                     Editor editor = ReviewCart_Page.this.getSharedPreferences("spSettings", 0).edit();
@@ -536,7 +539,7 @@ public class ReviewCart_Page extends AppCompatActivity {
                         && !ReviewCart_Page.this.cb1.isChecked() && !ReviewCart_Page.this.cb1.isChecked()
                         && !ReviewCart_Page.this.cb1.isChecked() && !ReviewCart_Page.this.cb1.isChecked()
                         && !ReviewCart_Page.this.cb1.isChecked() && !ReviewCart_Page.this.cb1.isChecked())  {
-                    ReviewCart_Page.this.removeOrder_btn.setVisibility(4);
+                    ReviewCart_Page.this.removeOrder_btn.setVisibility(View.INVISIBLE);
                 }
             }
         });

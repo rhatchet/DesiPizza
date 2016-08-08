@@ -10,7 +10,7 @@ public class StartPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         startActivity(new Intent(this, MainActivity.class));
-        finish();
         //setContentView(R.layout.activity_start_page);
+  finish();
     }
 }

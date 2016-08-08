@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:text="Small($2)"
             android:id="@+id/radioButton_drinkSmall_id"
-            android:checked="true" />
+            android:checked="false" />
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -85,7 +85,7 @@
             android:layout_height="wrap_content"
             android:text="Coke"
             android:id="@+id/radioButton_drinkCoke_id"
-            android:checked="true" />
+            android:checked="false" />
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -133,10 +133,9 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:id="@+id/textView_drinkPrice_id"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="37dp" />
+        android:layout_above="@+id/button_AddToCart_Drink_id" />
 
     <Button
         android:layout_width="wrap_content"
@@ -144,15 +143,15 @@
         android:text="Add to Cart"
         android:id="@+id/button_AddToCart_Drink_id"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignRight="@+id/radiogroup_drinkType_id"
+        android:layout_alignEnd="@+id/radiogroup_drinkType_id" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cancel"
         android:id="@+id/button_Cancel_Drink_id"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignTop="@+id/button_AddToCart_Drink_id"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
 </RelativeLayout>

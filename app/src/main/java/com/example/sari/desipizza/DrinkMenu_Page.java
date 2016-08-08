@@ -42,12 +42,12 @@ public class DrinkMenu_Page extends AppCompatActivity {
 
                 Intent intent = new Intent(DrinkMenu_Page.this, StartPage.class);
                 SharedPreferences sp = DrinkMenu_Page.this.getSharedPreferences("spSettings", 0);
-                int tempi = sp.getInt("TotalPrice", 0);
+                int temp_price = sp.getInt("TotalPrice", 0);
                 Editor editor = sp.edit();
-                editor.putInt("TotalPrice", DrinkMenu_Page.drinkprice_int + tempi);
+                editor.putInt("TotalPrice", DrinkMenu_Page.drinkprice_int + temp_price);
                 editor.commit();
                 String drinkSizeDisp = null;
-                String drinkTypeDisp = null; //BuildConfig.FLAVOR;
+                String drinkTypeDisp = ""; //BuildConfig.FLAVOR;
                 if(DrinkMenu_Page.drinksize_int == 1) {
                     drinkSizeDisp = "Small";
                 }
@@ -61,14 +61,14 @@ public class DrinkMenu_Page extends AppCompatActivity {
                 if(DrinkMenu_Page.drinktype_int == 1) {
                     drinkTypeDisp = "Coke";
                 }
-                else if(DrinkMenu_Page.drinksize_int == 2) {
-                    drinkSizeDisp = "Fanta";
+                else if(DrinkMenu_Page.drinktype_int == 2) {
+                    drinkTypeDisp = "Fanta";
                 }
-                else if(DrinkMenu_Page.drinksize_int == 3) {
-                    drinkSizeDisp = "Diet Coke";
+                else if(DrinkMenu_Page.drinktype_int == 3) {
+                    drinkTypeDisp = "Diet Coke";
                 }
-                else if(DrinkMenu_Page.drinksize_int == 4) {
-                    drinkSizeDisp = "Peppers";
+                else if(DrinkMenu_Page.drinktype_int == 4) {
+                    drinkTypeDisp = "Peppers";
                 }
 
                 String drinkDisp = drinkSizeDisp + " " + drinkTypeDisp + " ($" + DrinkMenu_Page.drinkprice_int + ")\n";
@@ -208,19 +208,19 @@ public class DrinkMenu_Page extends AppCompatActivity {
         drinksize_int = 1;
         drinktype_int = 1;
         drinkpricetext = (TextView) findViewById(R.id.textView_drinkPrice_id);
-        drinkpricetext.setText("Price: $2");
+        drinkpricetext.setText("Price: $0");
         drinksizetext = (TextView) findViewById(R.id.textView_drinkSizeSelected_id);
         drinksizetext.setText("\n Size Selected: \nSmall ($2)");
         drinktypetext = (TextView) findViewById(R.id.textView_drinkTypeSelected_id);
         drinktypetext.setText("\n Drink Selected: \nCoke");
-
+        addListenerOnButton_Add_To_Cart();
+        addListenerOnButton_Cancel();
         rg_drinksize = (RadioGroup) findViewById(R.id.radioGroup_drinkSize_id);
         rg_drinksize.setOnCheckedChangeListener( new drinksize_class());
         rg_drinktype = (RadioGroup) findViewById(R.id.radiogroup_drinkType_id);
         rg_drinktype.setOnCheckedChangeListener( new drinktype_class());
 
-        addListenerOnButton_Add_To_Cart();
-        addListenerOnButton_Cancel();
+
         //add_to_cart_drinks_btn  already added in addListenerOnButton().
         //cancel_drink_btn = (Button) findViewById(R.id.button_Cancel_Drink_id);
         //cancel_drink_btn.setOnClickListener();
