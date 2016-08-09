@@ -41,7 +41,7 @@ https://github.com/s4sarishma/DesiPizza.git
 
 ##License Information:
 
-This work is available under the "MIT License". Please see the file COPYING in this distribution for license terms.
+This work is available under the "MIT License". Please see the file LICENSE in this distribution for license terms.
 
 ##Bug or Issue Tracker:
 
