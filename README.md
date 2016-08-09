@@ -2,7 +2,7 @@
 
 Copyright (c) 2016 Swathi Ramakanth Shanbhag, Sarishma Jayasree
 
-This project is licensed under the "MIT License". Please see the file COPYING in this distribution for license terms.
+This project is licensed under the "MIT License". Please see the file LICENSE in this distribution for license terms.
 
 This is an open source android application which allows people to order pizza from a specific restaurant.
 
@@ -36,7 +36,7 @@ https://github.com/s4sarishma/DesiPizza.git
 
 * Use database to store customers' login-information, address-information, etc.
 
-*Provide customers with carry-out/delivery services
+* Provide customers with carry-out/delivery services
 
 
 ##License Information:
@@ -50,6 +50,7 @@ You can report the bugs in the following link: https://github.com/s4sarishma/Des
 You can refer the user manaul documnet to get build instructions, prerequisites:
 
 ##References:
+
 https://developer.android.com/training/index.html
 
 https://developer.android.com/reference/android/content/SharedPreferences.html
