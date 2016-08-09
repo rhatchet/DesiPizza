@@ -12,7 +12,7 @@ The user may order one or more pizzas of various sizes with various ingredients,
 
 ##Technical Details:
 
-This app was developed in Android with API target 24 (5.1.1) Lollipop and tested in Lollipop (5.0.1)
+This app was developed in Android with API target 15(4.0.3) Android IceCreamSandwich and tested in KitKat (4.4.2)
 
 ##Source Code:
 
@@ -50,7 +50,7 @@ https://developer.android.com/training/index.html
 https://developer.android.com/reference/android/content/SharedPreferences.html
 
 
-##Final Presentation:
+##Final Presentation: 
 
 ##Authors:
 
