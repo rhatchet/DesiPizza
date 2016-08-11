@@ -56,7 +56,9 @@ https://developer.android.com/training/index.html
 https://developer.android.com/reference/android/content/SharedPreferences.html
 
 
-##Final Presentation: https://github.com/s4sarishma/DesiPizza/blob/master/Desi%20Pizza%20-%20an%20Android%20App.pdf
+##Final Presentation: 
+
+https://github.com/s4sarishma/DesiPizza/blob/master/Desi%20Pizza%20-%20an%20Android%20App.pdf
 
 ##Authors:
 
