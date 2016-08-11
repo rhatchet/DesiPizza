@@ -1,3 +1,11 @@
+/************************************************************************************
+ *   Copyright (C) 2016 Sarishma Jayasree & Swathi Ramakanth Shanbhag               *
+ *   This project is licensed under the "MIT License".                              *
+ *   Please see the file LICENSE in this distribution for license terms.            *
+ *   LICENSE Link: https://github.com/s4sarishma/DesiPizza/blob/master/LICENSE)     *
+ *                                                                                  *
+ ************************************************************************************/
+
 package com.example.sari.desipizza;
 
 import android.content.Context;
