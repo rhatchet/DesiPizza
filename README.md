@@ -22,10 +22,6 @@ https://github.com/s4sarishma/DesiPizza.git
 
 .apk file can be used to install the app on your phone. You can get the .apk file from : https://github.com/s4sarishma/DesiPizza/blob/master/app-release.apk
 
-##Screenshots:
-
-
-
 ##Future Enhancements:
 
 * Provide more toppings, drink-types for the users
