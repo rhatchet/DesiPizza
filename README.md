@@ -44,7 +44,15 @@ This work is available under the "MIT License". Please see the file LICENSE in t
 
 You can report the bugs in the following link: https://github.com/s4sarishma/DesiPizza/issues 
 
-You can refer the user manaul documnet to get build instructions, prerequisites:
+##Build Instructions
+
+1. Install Android SDK https://developer.android.com/studio/index.html (Also, make sure you have jdk installed in your machine)
+2. Open Android SDK, Begin a new project (eg: MyProject). Clone or Download the source code for DesiPizza from the github repository. Please, make sure that the package name in the src files and the manifest file is "com.example.desipizza"
+3. Build the application and run it using the emulator. This will create a .apk file which can be installed to your Android phone.
+4. Locate the .apk file from your local directory and copy it to your phone. 
+5. In your phone,Go to Apps-> My Files and install the .apk file.
+6. After completing installation, open the app from Apps and start exploring.
+
 
 ##References:
 
@@ -63,7 +71,7 @@ Swathi Ramakanth Shanbhag
 
 Sarishma Jayasree
 
-##Contact inforation: 
+##Contact information: 
 
 For any queries related to this project, please feel free to contact us. 
 Email: rswathi@pdx.edu
