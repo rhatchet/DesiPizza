@@ -3,12 +3,21 @@
 Copyright (c) 2016 Swathi Ramakanth Shanbhag, Sarishma Jayasree
 
 This project is licensed under the "MIT License". Please see the file LICENSE in this distribution for license terms.
+https://github.com/s4sarishma/DesiPizza/blob/master/LICENSE
 
 This is an open source android application which allows people to order pizzas or drinks.
 
 ##Project Description:
 
-The user may order one or more pizzas of various sizes with various ingredients, and zero or more drinks of various sizes. The user first enters the order, then reviews the order and the prices, and then updates or approves the order. The users may remove their order by selecting appropriate checkbox and then tapping on the  REMOVE button.  Once after the users tap on ORDER button, a confirmation of their order is displayed. The user may then tap on EXIT button to successfully close the application. 
+- The project has a homepage with three options- Order Pizza, Order Drink, Review Cart.
+- Clicking Order Pizza, a user can order pizzas of various sizes and toppings. 
+- Similarly for Order Drink, user can order drink of different sizes and type.
+- User can make multiple orders, review them and confirm or cancel order. 
+- There is a remove option to remove selected orders from the Review screen. 
+- If user confirms the order, a confirmation message is displayed. 
+- To add more items, user can click Back and select pizza or drink required.
+- If user cancels the order, all the order created will be cancelled and redirects to the homepage. 
+- The Exit Application button after confirming thr order successfully close the application. 
 
 ##Technical Details:
 
@@ -20,19 +29,19 @@ https://github.com/s4sarishma/DesiPizza.git
 
 ##.apk File:
 
-.apk file can be used to install the app on your phone. You can get the .apk file from : https://github.com/s4sarishma/DesiPizza/blob/master/app-release.apk
+.apk file can be used to install the app on your phone. You can get the .apk file from : https://github.com/s4sarishma/DesiPizza/blob/master/app/app-release.apk
 
 ##Future Enhancements:
 
-* Provide more toppings, drink-types for the users
+* Provide more menu options for the users
 
-* Allow users to add different crusts for their pizzas
+* Improve the User Interface
 
 * Integrate this app with a pay service
 
 * Use database to store customers' login-information, address-information, etc.
 
-* Provide customers with carry-out/delivery services
+* Provide customers with carry-out/delivery and pre-order services
 
 
 ##License Information:
@@ -43,7 +52,15 @@ This work is available under the "MIT License". Please see the file LICENSE in t
 
 You can report the bugs in the following link: https://github.com/s4sarishma/DesiPizza/issues 
 
-You can refer the user manaul documnet to get build instructions, prerequisites:
+##Build Instructions
+
+1. Install Android SDK https://developer.android.com/studio/index.html (Also, make sure you have jdk installed in your machine)
+2. Open Android SDK, Begin a new project (eg: MyProject). Clone or Download the source code for DesiPizza from the github repository. Please, make sure that the package name in the src files and the manifest file is "com.example.desipizza"
+3. Build the application and run it using the emulator. This will create a .apk file which can be installed to your Android phone.
+4. Locate the .apk file from your local directory and copy it to your phone. 
+5. In your phone,Go to Apps-> My Files and install the .apk file.
+6. After completing installation, open the app from Apps and start exploring.
+
 
 ##References:
 
@@ -62,19 +79,11 @@ Swathi Ramakanth Shanbhag
 
 Sarishma Jayasree
 
-##Contact inforation: 
+##Contact information: 
 
-If you have any query about this app, please send an email to either rswathi@pdx.edu or sarishma@pdx.edu
-
-
-
-
-
-
-
-
-
-
+For any queries related to this project, please feel free to contact us. 
+Email: rswathi@pdx.edu
+       sarishma@pdx.edu
 
 
 
