@@ -22,10 +22,6 @@ This is an open source android application which allows people to order pizzas o
 ###Screenshots: 
 https://github.com/s4sarishma/DesiPizza/tree/master/screenshots
 
-###Project flow: Welcome page
-![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/1_MainActivity_Page.png)
-
-
 ###Technical Details:
 
 This app was developed in Android with API target 15(4.0.3) Android IceCreamSandwich and tested in KitKat (4.4.2)
