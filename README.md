@@ -7,7 +7,7 @@ https://github.com/s4sarishma/DesiPizza/blob/master/LICENSE
 
 This is an open source android application which allows people to order pizzas or drinks.
 
-##Project Description:
+###Project Description:
 
 - The project has a homepage with three options- Order Pizza, Order Drink, Review Cart.
 - Clicking Order Pizza, a user can order pizzas of various sizes and toppings. 
@@ -20,22 +20,22 @@ This is an open source android application which allows people to order pizzas o
 - The Exit Application button after confirming thr order successfully close the application. 
 
 
-##Screenshots: 
+###Screenshots: 
 https://github.com/s4sarishma/DesiPizza/tree/master/screenshots
 
-##Technical Details:
+###Technical Details:
 
 This app was developed in Android with API target 15(4.0.3) Android IceCreamSandwich and tested in KitKat (4.4.2)
 
-##Source Code:
+###Source Code:
 
 https://github.com/s4sarishma/DesiPizza.git
 
-##.apk File:
+###.apk File:
 
 .apk file can be used to install the app on your phone. You can get the .apk file from : https://github.com/s4sarishma/DesiPizza/blob/master/app/app-release.apk
 
-##Future Enhancements:
+###Future Enhancements:
 
 * Provide more menu options for the users
 
@@ -48,15 +48,15 @@ https://github.com/s4sarishma/DesiPizza.git
 * Provide customers with carry-out/delivery and pre-order services
 
 
-##License Information:
+###License Information:
 
 This work is available under the "MIT License". Please see the file LICENSE in this distribution for license terms.
 
-##Bug or Issue Tracker:
+###Bug or Issue Tracker:
 
 You can report the bugs in the following link: https://github.com/s4sarishma/DesiPizza/issues 
 
-##Build Instructions
+###Build Instructions
 
 1. Install Android SDK https://developer.android.com/studio/index.html (Also, make sure you have jdk installed in your machine)
 2. Open Android SDK, Begin a new project (eg: MyProject). Clone or Download the source code for DesiPizza from the github repository. Please, make sure that the package name in the src files and the manifest file is "com.example.desipizza"
@@ -66,24 +66,24 @@ You can report the bugs in the following link: https://github.com/s4sarishma/Des
 6. After completing installation, open the app from Apps and start exploring.
 
 
-##References:
+###References:
 
 https://developer.android.com/training/index.html
 
 https://developer.android.com/reference/android/content/SharedPreferences.html
 
 
-##Final Presentation: 
+###Final Presentation: 
 
 https://github.com/s4sarishma/DesiPizza/blob/master/Desi%20Pizza%20-%20Presentation.pdf
 
-##Authors:
+###Authors:
 
 Swathi Ramakanth Shanbhag
 
 Sarishma Jayasree
 
-###Contact information: 
+####Contact information: 
 
 For any queries related to this project, please feel free to contact us. 
 Email: rswathi@pdx.edu
