@@ -9,7 +9,7 @@ This is an open source android application which allows people to order pizzas o
 
 ###Project Description:
 
-- The project has a homepage with three options- Order Pizza, Order Drink, Review Cart.
+- The project has a welcome page with three options- Order Pizza, Order Drink, Review Cart.
 - Clicking Order Pizza, a user can order pizzas of various sizes and toppings. 
 - Similarly for Order Drink, user can order drink of different sizes and type.
 - User can make multiple orders, review them and confirm or cancel order. 
@@ -21,6 +21,10 @@ This is an open source android application which allows people to order pizzas o
 
 ###Screenshots: 
 https://github.com/s4sarishma/DesiPizza/tree/master/screenshots
+
+###Project flow: Welcome page
+![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/1_MainActivity_Page.png)
+
 
 ###Technical Details:
 
@@ -42,7 +46,6 @@ You can get the .apk file from: https://github.com/s4sarishma/DesiPizza/blob/mas
 * Integrate this app with a pay service
 * Use database to store customers' login-information, address-information, etc.
 * Provide customers with carry-out/delivery and pre-order services
-
 
 ###License Information:
 
@@ -82,7 +85,7 @@ Sarishma Jayasree
 ####Contact information: 
 
 For any queries related to this project, please feel free to contact us. 
-Email: rswathi@pdx.edu
+Email: rswathi@pdx.edu, 
        sarishma@pdx.edu
 
 
