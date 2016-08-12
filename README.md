@@ -10,14 +10,14 @@ This is an open source android application which allows people to order pizzas o
 ###Project Description:
 
 - The project has a welcome page with three options- Order Pizza, Order Drink, Review Cart.
-- Clicking Order Pizza, a user can order pizzas of various sizes and toppings. 
+- Clicking Order Pizza button, a user can order pizzas of various sizes and toppings. 
 - Similarly for Order Drink, user can order drink of different sizes and type.
 - User can make multiple orders, review them and confirm or cancel order. 
 - There is a remove option to remove selected orders from the Review screen. 
-- If user confirms the order, a confirmation message is displayed. 
+- If the user confirms the order, a confirmation message is displayed. 
 - To add more items, user can click Back and select pizza or drink required.
-- If user cancels the order, all the order created will be cancelled and redirects to the homepage. 
-- The Exit Application button after confirming thr order successfully close the application. 
+- If the user cancels the order, all the order created will be cancelled and redirects to the homepage. 
+- The Exit Application button after confirming the order successfully closes the application. 
 
 ###Screenshots: 
 https://github.com/s4sarishma/DesiPizza/tree/master/screenshots
