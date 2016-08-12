@@ -10,9 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b4991b8-fd39-4af1-897c-7baea1b7e1cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/paneer_pizza_pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pizzapic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/thankyou.jpeg" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
@@ -53,55 +50,58 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/PizzaMenu_Page.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReviewCart_Page.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReviewCart_Page.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.518518">
-              <caret line="151" column="17" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.22857143">
+              <caret line="147" column="44" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="44" />
               <folding>
-                <element signature="e#2238#3889#0" expanded="true" />
-                <element signature="e#3888#3889#0" expanded="true" />
-                <element signature="e#4112#5719#0" expanded="true" />
-                <element signature="e#5718#5719#0" expanded="true" />
-                <element signature="e#10289#11183#0" expanded="true" />
-                <element signature="e#11182#11183#0" expanded="true" />
-                <element signature="e#11223#12117#0" expanded="true" />
-                <element signature="e#12116#12117#0" expanded="true" />
-                <element signature="e#12157#13051#0" expanded="true" />
-                <element signature="e#13050#13051#0" expanded="true" />
-                <element signature="e#13091#13985#0" expanded="true" />
-                <element signature="e#13984#13985#0" expanded="true" />
-                <element signature="e#14025#14919#0" expanded="true" />
-                <element signature="e#14918#14919#0" expanded="true" />
-                <element signature="e#14959#15853#0" expanded="true" />
-                <element signature="e#15852#15853#0" expanded="true" />
-                <element signature="e#15893#16787#0" expanded="true" />
-                <element signature="e#16786#16787#0" expanded="true" />
-                <element signature="e#16827#17721#0" expanded="true" />
-                <element signature="e#17720#17721#0" expanded="true" />
-                <element signature="e#17761#18655#0" expanded="true" />
-                <element signature="e#18654#18655#0" expanded="true" />
-                <element signature="e#18696#19591#0" expanded="true" />
-                <element signature="e#19590#19591#0" expanded="true" />
-                <element signature="e#19720#28698#0" expanded="true" />
-                <element signature="e#28697#28698#0" expanded="true" />
+                <element signature="e#0#602#0" expanded="true" />
+                <element signature="e#2842#4493#0" expanded="true" />
+                <element signature="e#4492#4493#0" expanded="true" />
+                <element signature="e#4716#6323#0" expanded="true" />
+                <element signature="e#6322#6323#0" expanded="true" />
+                <element signature="e#10893#11787#0" expanded="true" />
+                <element signature="e#11786#11787#0" expanded="true" />
+                <element signature="e#11827#12721#0" expanded="true" />
+                <element signature="e#12720#12721#0" expanded="true" />
+                <element signature="e#12761#13655#0" expanded="true" />
+                <element signature="e#13654#13655#0" expanded="true" />
+                <element signature="e#13695#14589#0" expanded="true" />
+                <element signature="e#14588#14589#0" expanded="true" />
+                <element signature="e#14629#15523#0" expanded="true" />
+                <element signature="e#15522#15523#0" expanded="true" />
+                <element signature="e#15563#16457#0" expanded="true" />
+                <element signature="e#16456#16457#0" expanded="true" />
+                <element signature="e#16497#17391#0" expanded="true" />
+                <element signature="e#17390#17391#0" expanded="true" />
+                <element signature="e#17431#18325#0" expanded="true" />
+                <element signature="e#18324#18325#0" expanded="true" />
+                <element signature="e#18365#19259#0" expanded="true" />
+                <element signature="e#19258#19259#0" expanded="true" />
+                <element signature="e#19300#20195#0" expanded="true" />
+                <element signature="e#20194#20195#0" expanded="true" />
+                <element signature="e#20324#29302#0" expanded="true" />
+                <element signature="e#29301#29302#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FinalPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FinalPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/FinalPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4979253">
-              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#602#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2129,7 +2129,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="23" width="1380" height="877" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2137,7 +2137,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2168,168 +2168,168 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>148</line>
+          <line>156</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>219</line>
+          <line>227</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>79</line>
+          <line>87</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>121</line>
+          <line>129</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>258</line>
+          <line>266</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>259</line>
+          <line>267</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>261</line>
+          <line>269</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>262</line>
+          <line>270</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>428</line>
+          <line>436</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>432</line>
+          <line>440</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>442</line>
+          <line>450</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>446</line>
+          <line>454</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>456</line>
+          <line>464</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>460</line>
+          <line>468</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>470</line>
+          <line>478</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>474</line>
+          <line>482</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>484</line>
+          <line>492</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>488</line>
+          <line>496</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>498</line>
+          <line>506</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>502</line>
+          <line>510</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>512</line>
+          <line>520</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>516</line>
+          <line>524</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>526</line>
+          <line>534</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>530</line>
+          <line>538</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>540</line>
+          <line>548</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>544</line>
+          <line>552</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>554</line>
+          <line>562</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java</url>
-          <line>558</line>
+          <line>566</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
@@ -2351,51 +2351,54 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/PizzaMenu_Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.518518">
-          <caret line="151" column="17" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
-          <folding>
-            <element signature="e#2238#3889#0" expanded="true" />
-            <element signature="e#3888#3889#0" expanded="true" />
-            <element signature="e#4112#5719#0" expanded="true" />
-            <element signature="e#5718#5719#0" expanded="true" />
-            <element signature="e#10289#11183#0" expanded="true" />
-            <element signature="e#11182#11183#0" expanded="true" />
-            <element signature="e#11223#12117#0" expanded="true" />
-            <element signature="e#12116#12117#0" expanded="true" />
-            <element signature="e#12157#13051#0" expanded="true" />
-            <element signature="e#13050#13051#0" expanded="true" />
-            <element signature="e#13091#13985#0" expanded="true" />
-            <element signature="e#13984#13985#0" expanded="true" />
-            <element signature="e#14025#14919#0" expanded="true" />
-            <element signature="e#14918#14919#0" expanded="true" />
-            <element signature="e#14959#15853#0" expanded="true" />
-            <element signature="e#15852#15853#0" expanded="true" />
-            <element signature="e#15893#16787#0" expanded="true" />
-            <element signature="e#16786#16787#0" expanded="true" />
-            <element signature="e#16827#17721#0" expanded="true" />
-            <element signature="e#17720#17721#0" expanded="true" />
-            <element signature="e#17761#18655#0" expanded="true" />
-            <element signature="e#18654#18655#0" expanded="true" />
-            <element signature="e#18696#19591#0" expanded="true" />
-            <element signature="e#19590#19591#0" expanded="true" />
-            <element signature="e#19720#28698#0" expanded="true" />
-            <element signature="e#28697#28698#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/FinalPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4979253">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sari/desipizza/ReviewCart_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22857143">
+          <caret line="147" column="44" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#602#0" expanded="true" />
+            <element signature="e#2842#4493#0" expanded="true" />
+            <element signature="e#4492#4493#0" expanded="true" />
+            <element signature="e#4716#6323#0" expanded="true" />
+            <element signature="e#6322#6323#0" expanded="true" />
+            <element signature="e#10893#11787#0" expanded="true" />
+            <element signature="e#11786#11787#0" expanded="true" />
+            <element signature="e#11827#12721#0" expanded="true" />
+            <element signature="e#12720#12721#0" expanded="true" />
+            <element signature="e#12761#13655#0" expanded="true" />
+            <element signature="e#13654#13655#0" expanded="true" />
+            <element signature="e#13695#14589#0" expanded="true" />
+            <element signature="e#14588#14589#0" expanded="true" />
+            <element signature="e#14629#15523#0" expanded="true" />
+            <element signature="e#15522#15523#0" expanded="true" />
+            <element signature="e#15563#16457#0" expanded="true" />
+            <element signature="e#16456#16457#0" expanded="true" />
+            <element signature="e#16497#17391#0" expanded="true" />
+            <element signature="e#17390#17391#0" expanded="true" />
+            <element signature="e#17431#18325#0" expanded="true" />
+            <element signature="e#18324#18325#0" expanded="true" />
+            <element signature="e#18365#19259#0" expanded="true" />
+            <element signature="e#19258#19259#0" expanded="true" />
+            <element signature="e#19300#20195#0" expanded="true" />
+            <element signature="e#20194#20195#0" expanded="true" />
+            <element signature="e#20324#29302#0" expanded="true" />
+            <element signature="e#29301#29302#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

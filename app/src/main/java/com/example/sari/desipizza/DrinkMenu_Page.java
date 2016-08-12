@@ -218,9 +218,11 @@ public class DrinkMenu_Page extends AppCompatActivity {
         drinkpricetext = (TextView) findViewById(R.id.textView_drinkPrice_id);
         drinkpricetext.setText("Price: $0");
         drinksizetext = (TextView) findViewById(R.id.textView_drinkSizeSelected_id);
-        drinksizetext.setText("\n Size Selected: \nSmall ($2)");
+        drinksizetext.setText(" Size Selected: ");
+      //drinksizetext.setText("\n Size Selected: \nSmall ($2)");
         drinktypetext = (TextView) findViewById(R.id.textView_drinkTypeSelected_id);
-        drinktypetext.setText("\n Drink Selected: \nCoke");
+        drinktypetext.setText(" Drink Selected: ");
+      //drinktypetext.setText("\n Drink Selected: \nCoke");
         addListenerOnButton_Add_To_Cart();
         addListenerOnButton_Cancel();
         rg_drinksize = (RadioGroup) findViewById(R.id.radioGroup_drinkSize_id);

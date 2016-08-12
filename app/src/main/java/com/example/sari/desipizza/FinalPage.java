@@ -8,54 +8,44 @@
  
 package com.example.sari.desipizza;
 
-import android.content.DialogInterface;
-import android.support.v7.app.AlertDialog;
+import android.content.Context;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.ButtonBarLayout;
+import android.view.View;
 import android.widget.Button;
 
 public class FinalPage extends AppCompatActivity {
-
-
-//    @Override
-//    public void onBackPressed() {
-//    }
+    Button exit_button;
 
     public void addListenerOnButton_Exit() {
 
-        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
-        alertDialogBuilder.setTitle("Exit Application?");
-        alertDialogBuilder
-                .setMessage("Click yes to exit!")
-                .setCancelable(false)
-                .setPositiveButton("Yes",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                moveTaskToBack(true);
-                                android.os.Process.killProcess(android.os.Process.myPid());
-                                System.exit(1);
-                            }
-                        })
+        final Context context = this;
+        exit_button = (Button) findViewById(R.id.button_exit_id);
+        exit_button.setOnClickListener(new View.OnClickListener() {
 
-                .setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-
-                        dialog.cancel();
-                    }
-                });
-
-        AlertDialog alertDialog = alertDialogBuilder.create();
-        alertDialog.show();
+            @Override
+            public void onClick(View arg0) {
+                FinalPage.this.exit_application();
+            }
+        });
     }
 
+
+    private void exit_application() {
+
+        ActivityCompat.finishAffinity(this);
+        System.exit(0);
+    }
+
+    public void onBackPressed() {
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_final_page);
         addListenerOnButton_Exit();
-
-
     }
 }

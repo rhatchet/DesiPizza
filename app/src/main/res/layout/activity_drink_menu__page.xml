@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#FFFFE0"
     tools:context="com.example.sari.desipizza.DrinkMenu_Page">
 
     <TextView
@@ -66,19 +67,19 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Choose drink: "
         android:id="@+id/textView3"
-        android:layout_below="@+id/radioGroup_drinkSize_id"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="136dp" />
+        android:layout_above="@+id/radiogroup_drinkType_id"
+        android:layout_alignParentLeft="true" />
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView3"
         android:orientation="horizontal"
+        android:id="@+id/radiogroup_drinkType_id"
+        android:layout_above="@+id/button_Cancel_Drink_id"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/radiogroup_drinkType_id">
+        android:layout_marginBottom="88dp">
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -123,10 +124,10 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:id="@+id/textView_drinkTypeSelected_id"
-        android:layout_below="@+id/radiogroup_drinkType_id"
+        android:layout_below="@+id/textView3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="38dp" />
+        android:layout_marginTop="42dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -135,7 +136,9 @@
         android:id="@+id/textView_drinkPrice_id"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_above="@+id/button_AddToCart_Drink_id" />
+        android:layout_alignBottom="@+id/button_Cancel_Drink_id"
+        android:layout_alignRight="@+id/textView_drinkSizeSelected_id"
+        android:layout_alignEnd="@+id/textView_drinkSizeSelected_id" />
 
     <Button
         android:layout_width="wrap_content"

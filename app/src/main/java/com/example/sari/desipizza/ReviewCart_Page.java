@@ -9,6 +9,7 @@
 package com.example.sari.desipizza;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
@@ -72,7 +73,7 @@ public class ReviewCart_Page extends AppCompatActivity {
     public Button removeOrder_btn;
 
     private TextView totalPriceDisp;
-    private static int grandTotal; //thetot
+    private static int grandTotal = 0; //thetot
 
 
     public void addListenerOnButton_ConfirmOrder() {
@@ -102,12 +103,20 @@ public class ReviewCart_Page extends AppCompatActivity {
                     ReviewCart_Page.this.startActivity(intent);
                     return;
                 }
-                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
-                //alertDialogBuilder.setMessage("NO ITEMS IN CART!!! ");
-                ReviewCart_Page.this.totalPriceDisp.setText("NO ITEMS IN CART!!! ");
+                new AlertDialog.Builder(context)
+                        .setTitle("Cannot Confirm")
+                        .setMessage("NO ITEMS ADDED TO CART! ")
+                        .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                            }
+                        })
+                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .show();
+               // ReviewCart_Page.this.totalPriceDisp.setText("NO ITEMS IN CART!!! ");
             }
         });
     }
+
 
     public void addListenerOnButton_CancelOrder() {
 
@@ -130,11 +139,23 @@ public class ReviewCart_Page extends AppCompatActivity {
                     ReviewCart_Page.list8 = null;
                     ReviewCart_Page.list9 = null;
                     ReviewCart_Page.list10 = null;
+                    ReviewCart_Page.tp1 = 0;
+                    ReviewCart_Page.tp2 = 0;
+                    ReviewCart_Page.tp3 = 0;
+                    ReviewCart_Page.tp4 = 0;
+                    ReviewCart_Page.tp5 = 0;
+                    ReviewCart_Page.tp6 = 0;
+                    ReviewCart_Page.tp7 = 0;
+                    ReviewCart_Page.tp8 = 0;
+                    ReviewCart_Page.tp9 = 0;
+                    ReviewCart_Page.tp10 = 0;
+
 
                     Editor editor = ReviewCart_Page.this.getSharedPreferences("spSettings", 0).edit();
                     editor.putInt("TotalPrice", 0);
                     editor.commit();
-
+                    ReviewCart_Page.grandTotal = 0;
+                    //ReviewCart_Page.this.totalPriceDisp.setText("Price: $0");
                     ReviewCart_Page.this.startActivity(intent);
                 }
             }
@@ -204,7 +225,10 @@ public class ReviewCart_Page extends AppCompatActivity {
         orderDisp8.setText(list8);
         orderDisp9.setText(list9);
         orderDisp10.setText(list10);
+        ReviewCart_Page.grandTotal = 0; //test
         this.totalPriceDisp = (TextView) findViewById(R.id.textView_TotalPriceCart);
+        //this.totalPriceDisp.setText("Price: $0"); //test
+
         if (list1 != null) {
             this.cb1.setVisibility(View.VISIBLE);
         }
@@ -240,6 +264,8 @@ public class ReviewCart_Page extends AppCompatActivity {
             Editor editor = sp.edit();
             editor.putInt("TotalPrice", 0);
             editor.commit();
+            ReviewCart_Page.grandTotal = 0; //test
+            this.totalPriceDisp.setText("Price: $" + grandTotal); //test
         }
         grandTotal = (((((((((tp1 + tp2) + tp3) + tp4) + tp5) + tp6) + tp7) + tp8) + tp9) + tp10);
         this.totalPriceDisp.setText("Price: $" + grandTotal);

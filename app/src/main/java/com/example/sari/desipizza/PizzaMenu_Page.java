@@ -112,19 +112,19 @@ public class PizzaMenu_Page extends AppCompatActivity {
                     count++;
                 }
                 if (PizzaMenu_Page.sausage_int == 1) {
-                    pizzaToppingsDisp = pizzaToppingsDisp + "Sausage ";
+                    pizzaToppingsDisp = pizzaToppingsDisp + "Paneer Tikka "; //Sausage
                     count++;
                 }
                 if (PizzaMenu_Page.ham_int == 1) {
-                    pizzaToppingsDisp = pizzaToppingsDisp + "Ham ";
+                    pizzaToppingsDisp = pizzaToppingsDisp + "Butter Chicken "; //Ham
                     count++;
                 }
                 if (PizzaMenu_Page.chicken_int == 1) {
-                    pizzaToppingsDisp = pizzaToppingsDisp + "Chicken ";
+                    pizzaToppingsDisp = pizzaToppingsDisp + "Tandoori Chicken "; //Chicken
                     count++;
                 }
                 if (PizzaMenu_Page.pepperoni_int == 1) {
-                    pizzaToppingsDisp = pizzaToppingsDisp + "Pepperoni ";
+                    pizzaToppingsDisp = pizzaToppingsDisp + "Chilli Paneer "; //Pepperoni
                     count++;
                 }
                 int pizzaprice_total = PizzaMenu_Page.pizzaprice1_int + PizzaMenu_Page.pizzaprice2_int;
@@ -366,14 +366,13 @@ public class PizzaMenu_Page extends AppCompatActivity {
         }
         public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
             if (isChecked) {
-                PizzaMenu_Page.pizzalist.add("Pepperoni");
+                PizzaMenu_Page.pizzalist.add("Chilli Paneer");
                 PizzaMenu_Page.pepperoni_int = 1;
                 PizzaMenu_Page.pizzaprice2_int++;
             }
             if (!isChecked) {
-                PizzaMenu_Page.pizzalist.remove("Pepperoni");
+                PizzaMenu_Page.pizzalist.remove("Chilli Paneer");
                 PizzaMenu_Page.pepperoni_int = 0;
-                PizzaMenu_Page.pizzaprice2_int--;
                 PizzaMenu_Page.pizzaprice2_int--;
             }
             PizzaMenu_Page.this.pizzatoppingstext.setText("\nToppings Selected: \n");
@@ -391,12 +390,12 @@ public class PizzaMenu_Page extends AppCompatActivity {
         }
         public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
             if (isChecked) {
-                PizzaMenu_Page.pizzalist.add("Sausage");
+                PizzaMenu_Page.pizzalist.add("Paneer Tikka ");
                 PizzaMenu_Page.sausage_int = 1;
                 PizzaMenu_Page.pizzaprice2_int++;
             }
             if (!isChecked) {
-                PizzaMenu_Page.pizzalist.remove("Sausage");
+                PizzaMenu_Page.pizzalist.remove("Paneer Tikka");
                 PizzaMenu_Page.sausage_int = 0;
                 PizzaMenu_Page.pizzaprice2_int--;
             }
@@ -415,12 +414,12 @@ public class PizzaMenu_Page extends AppCompatActivity {
         }
         public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
             if (isChecked) {
-                PizzaMenu_Page.pizzalist.add("Ham");
+                PizzaMenu_Page.pizzalist.add("Butter Chicken");
                 PizzaMenu_Page.ham_int = 1;
                 PizzaMenu_Page.pizzaprice2_int++;
             }
             if (!isChecked) {
-                PizzaMenu_Page.pizzalist.remove("Ham");
+                PizzaMenu_Page.pizzalist.remove("Butter Chicken");
                 PizzaMenu_Page.ham_int = 0;
                 PizzaMenu_Page.pizzaprice2_int--;
             }
@@ -439,12 +438,12 @@ public class PizzaMenu_Page extends AppCompatActivity {
         }
         public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
             if (isChecked) {
-                PizzaMenu_Page.pizzalist.add("Chicken");
+                PizzaMenu_Page.pizzalist.add("Tandoori Chicken");
                 PizzaMenu_Page.chicken_int = 1;
                 PizzaMenu_Page.pizzaprice2_int++;
             }
             if (!isChecked) {
-                PizzaMenu_Page.pizzalist.remove("Chicken");
+                PizzaMenu_Page.pizzalist.remove("Tandoori Chicken");
                 PizzaMenu_Page.chicken_int = 0;
                 PizzaMenu_Page.pizzaprice2_int--;
             }
@@ -485,7 +484,8 @@ public class PizzaMenu_Page extends AppCompatActivity {
         this.pizzapricetext = (TextView) findViewById(R.id.textView_pizzaPrice_id);
         pizzaprice1_int = 5;
         pizzaprice2_int = 0;
-        this.pizzapricetext.setText("Price: $5");
+        this.pizzapricetext.setText("Price: $0");
+      //this.pizzapricetext.setText("Price: $5");
         this.cb1 = (CheckBox) findViewById(R.id.checkBox_Tomato_id);
         this.cb2 = (CheckBox) findViewById(R.id.checkBox_Onion_id);
         this.cb3 = (CheckBox) findViewById(R.id.checkBox_Bellpeppers_id);
@@ -509,7 +509,8 @@ public class PizzaMenu_Page extends AppCompatActivity {
         addListenerOnButton_Cancel();
         this.rg_pizzasize = (RadioGroup) findViewById(R.id.radioGroup_pizzaSize_id);
         this.pizzasizetext = (TextView) findViewById(R.id.textView_pizzaSizeSelected_id);
-        this.pizzasizetext.setText("\n Size Selected: \nSmall");
+        this.pizzasizetext.setText("Size Selected: ");
+      //this.pizzasizetext.setText("\n Size Selected: \nSmall");
         this.rg_pizzasize.setOnCheckedChangeListener(new pizzasize_class());
         this.cb1.setOnCheckedChangeListener(new Tomato_class());
         this.cb2.setOnCheckedChangeListener(new Onion_class());

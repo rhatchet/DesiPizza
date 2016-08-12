@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#FFFFE0"
     tools:context="com.example.sari.desipizza.PizzaMenu_Page">
 
     <TextView
@@ -31,21 +32,21 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Small"
+            android:text="Small ($5)"
             android:id="@+id/radioButton_pizzaSmall_id"
             android:checked="false" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Medium"
+            android:text="Medium ($10)"
             android:id="@+id/radioButton_pizzaMedium_id"
             android:checked="false" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Large"
+            android:text="Large ($15)"
             android:id="@+id/radioButton_pizzaLarge_id"
             android:checked="false" />
 
@@ -56,12 +57,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout"
-        android:layout_below="@+id/textView11"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/textView12"
-        android:layout_alignRight="@+id/textView9"
-        android:layout_alignEnd="@+id/textView9">
+        android:layout_below="@+id/textView9">
 
         <CheckBox
             android:layout_width="wrap_content"
@@ -99,63 +97,44 @@
             android:checked="false" />
     </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Veggies"
-        android:id="@+id/textView11"
-        android:layout_above="@+id/linearLayout2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout2"
-        android:layout_below="@+id/textView12"
-        android:layout_alignLeft="@+id/textView12"
-        android:layout_alignStart="@+id/textView12">
+        android:layout_toEndOf="@+id/linearLayout"
+        android:layout_alignLeft="@+id/button_Cancel_Pizza_id"
+        android:layout_alignStart="@+id/button_Cancel_Pizza_id"
+        android:layout_below="@+id/textView9">
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pepperoni"
+            android:text="Chilli Paneer ($1)"
             android:id="@+id/checkBox_Pepperoni_id"
             android:checked="false" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sausage"
+            android:text="Paneer Tikka ($1)"
             android:id="@+id/checkBox_Sausage_id"
             android:checked="false" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Chicken"
+            android:text="Tandoori Chicken ($1)"
             android:id="@+id/checkBox_Chicken_id"
             android:checked="false" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ham"
+            android:text="Butter Chicken ($1)"
             android:id="@+id/checkBox_Ham_id"
             android:checked="false" />
     </LinearLayout>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Meats"
-        android:id="@+id/textView12"
-        android:layout_below="@+id/textView9"
-        android:layout_alignRight="@+id/textView7"
-        android:layout_alignEnd="@+id/textView7" />
 
     <Button
         android:layout_width="wrap_content"
@@ -172,8 +151,8 @@
         android:text="Cancel"
         android:id="@+id/button_Cancel_Pizza_id"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/textView12"
-        android:layout_alignEnd="@+id/textView12" />
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -211,7 +190,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Choose toppings: "
         android:id="@+id/textView9"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="30dp"
         android:layout_below="@+id/textView_pizzaSizeSelected_id"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -221,7 +200,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:id="@+id/textView_pizzaToppingsSelected_id"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="-30dp"
         android:layout_below="@+id/linearLayout"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

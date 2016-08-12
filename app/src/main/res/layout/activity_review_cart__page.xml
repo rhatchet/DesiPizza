@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#FFFFE0"
     tools:context="com.example.sari.desipizza.ReviewCart_Page">
 
     <TextView
@@ -31,7 +32,8 @@
         android:layout_height="wrap_content"
         android:text="Back"
         android:id="@+id/button_Back_id"
-        android:layout_alignTop="@+id/button_ConfirmOrder_id"
+        android:layout_toLeftOf="@+id/button_CancelOrder_id"
+        android:layout_alignTop="@+id/button_CancelOrder_id"
         android:layout_toRightOf="@+id/button_ConfirmOrder_id"
         android:layout_toEndOf="@+id/button_ConfirmOrder_id" />
 
@@ -282,6 +284,7 @@
         android:text="REMOVE"
         android:layout_above="@+id/textView_TotalPriceCart"
         android:layout_alignRight="@+id/tableRow10"
-        android:layout_alignEnd="@+id/tableRow10" />
+        android:layout_alignEnd="@+id/tableRow10"
+        android:visibility="invisible" />
 
 </RelativeLayout>
