@@ -83,7 +83,7 @@ Swathi Ramakanth Shanbhag
 
 Sarishma Jayasree
 
-##Contact information: 
+###Contact information: 
 
 For any queries related to this project, please feel free to contact us. 
 Email: rswathi@pdx.edu
