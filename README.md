@@ -9,7 +9,15 @@ This is an open source android application which allows people to order pizzas o
 
 ##Project Description:
 
-The user may order one or more pizzas of various sizes with various ingredients, and zero or more drinks of various sizes. The user first enters the order, then reviews the order and the prices, and then updates or approves the order. The users may remove their order by selecting appropriate checkbox and then tapping on the  REMOVE button.  Once after the users tap on ORDER button, a confirmation of their order is displayed. The user may then tap on EXIT button to successfully close the application. 
+- The project has a homepage with three options- Order Pizza, Order Drink, Review Cart.
+- Clicking Order Pizza, a user can order pizzas of various sizes and toppings. 
+- Similarly for Order Drink, user can order drink of different sizes and type.
+- User can make multiple orders, review them and confirm or cancel order. 
+- There is a remove option to remove selected orders from the Review screen. 
+- If user confirms the order, a confirmation message is displayed. 
+- To add more items, user can click Back and select pizza or drink required.
+- If user cancels the order, all the order created will be cancelled and redirects to the homepage. 
+- The Exit Application button after confirming thr order successfully close the application. 
 
 ##Technical Details:
 
@@ -76,16 +84,6 @@ Sarishma Jayasree
 For any queries related to this project, please feel free to contact us. 
 Email: rswathi@pdx.edu
        sarishma@pdx.edu
-
-
-
-
-
-
-
-
-
-
 
 
 
