@@ -19,6 +19,29 @@ This is an open source android application which allows people to order pizzas o
 - If the user cancels the order, all the order created will be cancelled and redirects to the homepage. 
 - The Exit Application button after confirming the order successfully closes the application. 
 
+
+###Project flow:
+
+####Welcome page
+![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/1_MainActivity_Page.png)
+
+####Pizza Menu page
+![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/2_PizzaMenu1.png)
+![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/3_PizzaMenu2.png)
+
+####Drink Menu page
+![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/4_DrinkMenu1.png)
+![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/5_DrinkMenu2.png)
+
+####Review Cart page
+![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/6_ReviewCart1.png)
+![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/7_ReviewCart2.png)
+![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/8_ReviewCart3.png)
+
+####Final Page
+![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/9_FinalPage.png)
+
+
 ###Screenshots: 
 https://github.com/s4sarishma/DesiPizza/tree/master/screenshots
 
