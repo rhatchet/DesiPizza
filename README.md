@@ -19,7 +19,6 @@ This is an open source android application which allows people to order pizzas o
 - If user cancels the order, all the order created will be cancelled and redirects to the homepage. 
 - The Exit Application button after confirming thr order successfully close the application. 
 
-
 ###Screenshots: 
 https://github.com/s4sarishma/DesiPizza/tree/master/screenshots
 
@@ -33,18 +32,15 @@ https://github.com/s4sarishma/DesiPizza.git
 
 ###.apk File:
 
-.apk file can be used to install the app on your phone. You can get the .apk file from : https://github.com/s4sarishma/DesiPizza/blob/master/app/app-release.apk
+.apk file can be used to install the app on your phone. 
+You can get the .apk file from: https://github.com/s4sarishma/DesiPizza/blob/master/app/app-release.apk
 
 ###Future Enhancements:
 
 * Provide more menu options for the users
-
 * Improve the User Interface
-
 * Integrate this app with a pay service
-
 * Use database to store customers' login-information, address-information, etc.
-
 * Provide customers with carry-out/delivery and pre-order services
 
 
