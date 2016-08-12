@@ -3,6 +3,7 @@
 Copyright (c) 2016 Swathi Ramakanth Shanbhag, Sarishma Jayasree
 
 This project is licensed under the "MIT License". Please see the file LICENSE in this distribution for license terms.
+https://github.com/s4sarishma/DesiPizza/blob/master/LICENSE
 
 This is an open source android application which allows people to order pizzas or drinks.
 
@@ -24,15 +25,15 @@ https://github.com/s4sarishma/DesiPizza.git
 
 ##Future Enhancements:
 
-* Provide more toppings, drink-types for the users
+* Provide more menu options for the users
 
-* Allow users to add different crusts for their pizzas
+* Improve the User Interface
 
 * Integrate this app with a pay service
 
 * Use database to store customers' login-information, address-information, etc.
 
-* Provide customers with carry-out/delivery services
+* Provide customers with carry-out/delivery and pre-order services
 
 
 ##License Information:
@@ -64,7 +65,9 @@ Sarishma Jayasree
 
 ##Contact inforation: 
 
-If you have any query about this app, please send an email to either rswathi@pdx.edu or sarishma@pdx.edu
+For any queries related to this project, please feel free to contact us. 
+Email: rswathi@pdx.edu
+       sarishma@pdx.edu
 
 
 
