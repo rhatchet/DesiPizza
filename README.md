@@ -19,6 +19,10 @@ This is an open source android application which allows people to order pizzas o
 - If user cancels the order, all the order created will be cancelled and redirects to the homepage. 
 - The Exit Application button after confirming thr order successfully close the application. 
 
+
+##Screenshots: 
+https://github.com/s4sarishma/DesiPizza/tree/master/screenshots
+
 ##Technical Details:
 
 This app was developed in Android with API target 15(4.0.3) Android IceCreamSandwich and tested in KitKat (4.4.2)
