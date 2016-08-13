@@ -17,7 +17,6 @@ This is an open source android application which allows people to order pizzas o
 - If the user confirms the order, a confirmation message is displayed. 
 - To add more items, user can click Back and select pizza or drink required.
 - If the user cancels the order, all the order created will be cancelled and redirects to the homepage. 
-- The Exit Application button after confirming the order successfully closes the application. 
 
 
 ###Project flow:
@@ -26,19 +25,32 @@ This is an open source android application which allows people to order pizzas o
 ![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/1_MainActivity_Page.png)
 
 ####Pizza Menu page
+Pizza menu options.
 ![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/2_PizzaMenu1.png)
+
+Selecting required size and toppings
 ![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/3_PizzaMenu2.png)
 
 ####Drink Menu page
+Drink Menu options.
 ![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/4_DrinkMenu1.png)
+
+Selecting required size and type of drink.
 ![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/5_DrinkMenu2.png)
 
-####Review Cart page
+####Review Cart page: 
+Orders added to the Cart
 ![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/6_ReviewCart1.png)
+
+Removing one or more order - select and click remove button.
 ![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/7_ReviewCart2.png)
+
+####review Cart page: 
+Warning message when confirming an empty cart.
 ![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/8_ReviewCart3.png)
 
 ####Final Page
+Confirmation message displayed. Clicking Exit Application successfully closes the application.
 ![alt tag](https://github.com/s4sarishma/DesiPizza/blob/master/screenshots/9_FinalPage.png)
 
 
